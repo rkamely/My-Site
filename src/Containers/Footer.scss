@@ -1,0 +1,70 @@
+@import "../Constants/Mixin";
+@import "../Constants/Variables";
+
+.Footer {
+  margin-top: 50px;
+  padding-top: 85px;
+
+
+  > :nth-child(1) {
+    padding-right: 7%;
+    padding-bottom: 20px;
+  }
+
+  .contactForm {
+    @include Display(column, flex-start, center);
+    padding-top:  50px ;
+
+
+    textarea {
+      width: 60%;
+      margin: 5px auto;
+      padding: 10px;
+      outline: none;
+      border: $Border;
+      height: 300px;
+      border-radius: $BorderRadius;
+      transition: 0.25s linear;
+
+      &:focus {
+        box-shadow: $BoxShadow;
+      }
+    }
+
+    ::placeholder {
+      color: $FontColor;
+      font-size: 1vw;
+      opacity: .8;
+
+    }
+  }
+
+  .signature {
+    background-image: url("../Assets/Wave.svg");
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    width: 100%;
+
+    span {
+      color: #595959;
+      position: absolute;
+      right: 40%;
+      top: 70%;
+
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .contactForm > * {
+    width: 60% !important;
+  }
+  input, .contactForm:nth-child(5) {
+    height: 50px !important;
+  }
+  textarea {
+    height: 150px !important;
+  }
+}
