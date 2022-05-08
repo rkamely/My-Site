@@ -2,9 +2,10 @@ import React, {useContext} from "react";
 import SegmentTitle from "../Components/SegmentTitle";
 import DownloadButton from "../Components/Button/DownloadButton";
 import skills from "../Assets/skills.png";
+import myResume from "../Assets/Reza Kameli - Frontend Dev .pdf"
+import SwitchContext from "../Context/ThemeSwitch";
 
 import './Skills.scss';
-import SwitchContext from "../Context/ThemeSwitch";
 
 
 function Skills() {
@@ -76,7 +77,7 @@ function Skills() {
                     </div>
                 </div>
             </div>
-            <DownloadButton/>
+            <DownloadButton content={"Download My Resume"} file={myResume}/>
         </section>
     );
 }
