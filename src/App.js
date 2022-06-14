@@ -9,13 +9,12 @@ function App() {
     const Home = lazy(() => import("./Pages/Home"));
     const Wrapper = lazy(() => import("./HOC/Wrapper"));
 
-    const [lightTheme, setLightTheme] = useState(toBoolean(localStorage.getItem('theme')))
-
+    const [lightTheme, setLightTheme] = useState(!!localStorage.getItem('theme') || false)
+    console.log(lightTheme)
     const themeSwitchHandler = () => {
         localStorage.setItem('theme', `${!lightTheme}`)
         setLightTheme(!lightTheme)
     }
-
 
 
     return (
