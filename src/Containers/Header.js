@@ -21,6 +21,7 @@ function Header() {
     const mobileMenu = () => {
         setOpen(!open)
     }
+
     return (
         <div className='headerRelative'>
             <nav id='Header' className="Header">
@@ -33,7 +34,7 @@ function Header() {
                     <button onClick={() => scrollToSection('Footer')}>Contact Me</button>
                 </div>
                 <div className='leftSide'>
-                    <div>Reza kameli</div>
+                    {<div>Reza kameli</div>}
                     <ThemeBtn/>
                 </div>
             </nav>

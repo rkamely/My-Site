@@ -7,7 +7,7 @@
   .Header {
     @include Display(row, space-between, center);
     padding: 0 10px;
-    background: linear-gradient(90deg, rgba(63,132,136,1) 0%, rgba(167,217,219,1) 100%);
+    background: linear-gradient(90deg, rgba(63,132,136,1) 0%, rgba(140,217,220,1) 100%);
     opacity: .9;
     backdrop-filter: blur(3px);
     position: fixed;
@@ -41,7 +41,6 @@
         transition: .1s linear;
         font-size: 2vw;
         padding: 18px 10px;
-        font-weight: bolder;
         position: relative;
 
         &:after {
@@ -68,7 +67,6 @@
     .leftSide {
       @include Display(row, space-between, center);
       font-size: 2.5vw;
-      font-weight: bolder;
       align-self: center;
 
       > * {

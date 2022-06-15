@@ -15,7 +15,7 @@ const FooterValidation = (contactUsInfo) => {
         }
 
         if (contactUsInfo.message === "" || contactUsInfo.message === undefined) {
-            errors['message'] = 'please Type your message. ';
+            errors['message'] = 'Please type your message. ';
             reject(errors);
         }
         resolve(true)

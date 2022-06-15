@@ -7,7 +7,6 @@ import contactMe from "../Assets/contactMe.png";
 import SwitchContext from "../Context/ThemeSwitch";
 import emailjs from "@emailjs/browser";
 
-
 import './Footer.scss';
 
 
@@ -77,7 +76,7 @@ function Footer() {
                 {error.message ? <span style={{color: "red", textAlign: "left"}}>{error.message}</span> : ""}
                 <ButtonContactMe content={'Send Me'}/>
             </form>
-            <div className='signature'><span style={{textAlign: "left"}}>Designed By Reza Kameli @2021</span></div>
+            <div className='signature'><span style={{textAlign: "left"}}>Designed By Reza Kameli @2022</span></div>
         </div>
     );
 }

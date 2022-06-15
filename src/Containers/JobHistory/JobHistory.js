@@ -3,10 +3,12 @@ import SegmentTitle from "../../Components/SegmentTitle";
 import Experience from "./Experience";
 import experience from '../../Assets/experience.png'
 import firstStar from '../../Assets/SetarehAvalLogo.png'
-import './JobHistory.scss';
 import SwitchContext from "../../Context/ThemeSwitch";
 
+import './JobHistory.scss'
+
 function JobHistory() {
+
     const frontendDevStar =
         {
             jobTitle: 'Frontend Developer',
@@ -73,19 +75,19 @@ function JobHistory() {
                                 img={frontendDevStar.logoCompany.firstStar}/>
                 </div>
                 <div className='leftSide'>
-                        <Experience jobTitle={digitalMarketerStar.jobTitle} company={digitalMarketerStar.companyName}
-                                    time={digitalMarketerStar.time}
-                                    Duties={
-                                        digitalMarketerStar.task.map(item =>
-                                            <p key={item.index} style={lightTheme ? {} : {color: "#a9a9a9"}}>{item}</p>
-                                        )
-                                    }
-                                    achievements={
-                                        digitalMarketerStar.achievements.map(item =>
-                                            <p key={item.index} style={lightTheme ? {} : {color: "#a9a9a9"}}>{item}</p>
-                                        )
-                                        }
-                                    img={digitalMarketerStar.logoCompany.firstStar}/>
+                    <Experience jobTitle={digitalMarketerStar.jobTitle} company={digitalMarketerStar.companyName}
+                                time={digitalMarketerStar.time}
+                                Duties={
+                                    digitalMarketerStar.task.map(item =>
+                                        <p key={item.index} style={lightTheme ? {} : {color: "#a9a9a9"}}>{item}</p>
+                                    )
+                                }
+                                achievements={
+                                    digitalMarketerStar.achievements.map(item =>
+                                        <p key={item.index} style={lightTheme ? {} : {color: "#a9a9a9"}}>{item}</p>
+                                    )
+                                }
+                                img={digitalMarketerStar.logoCompany.firstStar}/>
                 </div>
             </div>
         </section>
