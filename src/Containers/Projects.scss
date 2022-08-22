@@ -1,0 +1,53 @@
+@import "../Constants/Mixin";
+@import "../Constants/Variables";
+
+.Projects {
+  width: 90%;
+  margin: auto;
+
+  .projectsContent {
+    :nth-child(odd) {
+      flex-direction: row;
+    }
+
+
+    :nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .projectsCard {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      box-shadow: #{$BoxShadow};
+      border-radius: #{$BorderRadius};
+      margin: 30px auto;
+      padding: 50px;
+      @media only screen and (max-width: 900px) {
+        @include Display(column, center, center);
+        width: 80%;
+        padding: 40px 0;
+
+
+      }
+
+      > img {
+        width: 35%;
+      }
+
+      > div {
+        width: 60%;
+        @media only screen and (max-width: 900px) {
+          @include Display(column, center, center);
+          width: 70%;
+
+        }
+        button {
+          margin:  20px 0;
+
+        }
+      }
+    }
+  }
+}
