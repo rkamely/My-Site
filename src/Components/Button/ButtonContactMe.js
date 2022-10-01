@@ -6,7 +6,7 @@ import './ButtonContactMe.scss';
 function ButtonContactMe(props) {
     return (
         <button className='ButtonContactMe' style={{height: props.height, width: props.width}}
-                type={"submit"}> {props.content} </button>
+                type={"submit"}><a href={props.href} target="_blank">{props.content} </a></button>
 
     );
 }

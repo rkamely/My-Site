@@ -85,9 +85,27 @@ function Skills() {
                     </div>
                 </div>
                 <div className='item2' data-aos="fade-left"
-                     style={lightTheme ? {} : {background: "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,44,45,1) 100%)"}}>
+                     style={lightTheme ? {} : {background: "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,36,37,1) 100%)"}}>
                     <div className='shadow2'/>
                     <div className='number2'><span>8</span></div>
+                    <div className='contentSkills'>
+                        <h2 style={lightTheme ? {} : {color: "#a9a9a9"}}>React native</h2>
+                        <h5 style={lightTheme ? {} : {color: "#a9a9a9"}}>React Native is an open-source JavaScript framework, designed for building apps on multiple platforms like iOS, Android, and also web applications, utilizing the very same code base</h5>
+                    </div>
+                </div>
+                <div className='item' data-aos="fade-right"
+                     style={lightTheme ? {} : {background: "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,44,45,1) 100%)"}}>
+                    <div className='shadow'/>
+                    <div className='number'><span>9</span></div>
+                    <div className='contentSkills'>
+                        <h2 style={lightTheme ? {} : {color: "#a9a9a9"}}>Typescript</h2>
+                        <h5 style={lightTheme ? {} : {color: "#a9a9a9"}}>TypeScript is a programming language first developed by Microsoft in 2012. Its main ambition is to improve the productivity of developing complex applications.</h5>
+                    </div>
+                </div>
+                <div className='item2' data-aos="fade-left"
+                     style={lightTheme ? {} : {background: "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,44,45,1) 100%)"}}>
+                    <div className='shadow2'/>
+                    <div className='number2'><span>10</span></div>
                     <div className='contentSkills'>
                         <h2 style={lightTheme ? {} : {color: "#a9a9a9"}}>Other Skills</h2>
                         <h5 style={lightTheme ? {} : {color: "#a9a9a9"}}>Git, npm, CSS libraries, Photoshop, SEO, Office, Google analysis tools, ...</h5>

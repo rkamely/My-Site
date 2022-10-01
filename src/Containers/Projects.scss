@@ -23,11 +23,11 @@
       box-shadow: #{$BoxShadow};
       border-radius: #{$BorderRadius};
       margin: 30px auto;
-      padding: 50px;
+      padding: 30px;
       @media only screen and (max-width: 900px) {
         @include Display(column, center, center);
         width: 80%;
-        padding: 40px 0;
+        padding: 20px 0;
 
 
       }

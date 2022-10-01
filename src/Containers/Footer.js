@@ -91,15 +91,15 @@ function Footer() {
                             love
                             to schedule an interview at your earliest convenience.
                         </p>
-                        <p>I can be reached anytime via my cell phone, <a>+989199001193</a> or by email
-                            at <a>reza.kamely67@yahoo.com</a>.</p>
+                        <p>I can be reached anytime via my cell phone, <a href={"tel:+989199001193"} >+989199001193</a> or by email
+                            at <a href={'mailto:reza.kamely67@yahoo.com'}>reza.kamely67@yahoo.com</a>.</p>
                         <p>Best regards,</p>
                         <div className='iconFooter'>
                             <h4>Follow Me : </h4>
-                            <AiOutlineLinkedin data-aos="fade-up" />
-                            <BsGithub data-aos="fade-up" data-aos-delay='100'/>
-                            <AiOutlineMail data-aos="fade-up" data-aos-delay='200'/>
-                            <BiPhoneCall data-aos="fade-up" data-aos-delay='300'/>
+                            <a href="https://www.linkedin.com/in/reza-kameli-a85a2a9b/"><AiOutlineLinkedin data-aos="fade-up" /></a>
+                            <a href="https://github.com/rkamely"><BsGithub data-aos="fade-up" data-aos-delay='100'/></a>
+                            <a href={'mailto:reza.kamely67@yahoo.com'}><AiOutlineMail data-aos="fade-up" data-aos-delay='200'/></a>
+                            <a href={"tel:+989199001193"}><BiPhoneCall data-aos="fade-up" data-aos-delay='300'/></a>
                         </div>
                     </div>
                     <img src={myPic} alt=""/>
