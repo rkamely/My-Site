@@ -96,8 +96,8 @@ function Footer() {
                         <p>Best regards,</p>
                         <div className='iconFooter'>
                             <h4>Follow Me : </h4>
-                            <a href="https://www.linkedin.com/in/reza-kameli-a85a2a9b/"><AiOutlineLinkedin data-aos="fade-up" /></a>
-                            <a href="https://github.com/rkamely"><BsGithub data-aos="fade-up" data-aos-delay='100'/></a>
+                            <a href="https://www.linkedin.com/in/reza-kameli-a85a2a9b/" target="_blank"><AiOutlineLinkedin data-aos="fade-up" /></a>
+                            <a href="https://github.com/rkamely" target="_blank"><BsGithub data-aos="fade-up" data-aos-delay='100'/></a>
                             <a href={'mailto:reza.kamely67@yahoo.com'}><AiOutlineMail data-aos="fade-up" data-aos-delay='200'/></a>
                             <a href={"tel:+989199001193"}><BiPhoneCall data-aos="fade-up" data-aos-delay='300'/></a>
                         </div>
